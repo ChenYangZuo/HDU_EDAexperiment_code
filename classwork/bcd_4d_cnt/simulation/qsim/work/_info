@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document/Quartus II Project Files/bcd_4d_cnt/simulation/qsim
+vbcd_4d_cnt
+Z1 !s110 1571996742
+!i10b 1
+!s100 :8Oe66bThN`5_7`_68MZa2
+IO1B]HWMH1BeTTYeH=Bi0k0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1571996741
+Z4 8bcd_4d_cnt.vo
+Z5 Fbcd_4d_cnt.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1571996742.000000
+Z8 !s107 bcd_4d_cnt.vo|
+Z9 !s90 -work|work|bcd_4d_cnt.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vbcd_4d_cnt_vlg_vec_tst
+R1
+!i10b 1
+!s100 G;17<b;K;;<k8EaNMY_;f1
+I0M>lM:ANU_F4E64EEMYf;1
+R2
+R0
+w1571996739
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+R1
+!i10b 1
+!s100 CCXK9=0edR3z=_Q`jMSEl2
+ILKmU^I1N_^Pm11LYfNdY03
+R2
+R0
+R3
+R4
+R5
+L0 1576
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

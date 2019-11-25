@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document/Quartus II Project Files/classwork/seq_rd/simulation/modelsim
+vseq_rd
+Z1 !s110 1574674527
+!i10b 1
+!s100 j1n:z]O4WIj1n^_C_T=S]3
+IZ_>470ASedF[YgZaR``<a3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1574673602
+8D:/Document/Quartus II Project Files/classwork/seq_rd/seq_rd.v
+FD:/Document/Quartus II Project Files/classwork/seq_rd/seq_rd.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1574674527.000000
+!s107 D:/Document/Quartus II Project Files/classwork/seq_rd/seq_rd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/classwork/seq_rd|D:/Document/Quartus II Project Files/classwork/seq_rd/seq_rd.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+D:/Document/Quartus II Project Files/classwork/seq_rd}
+Z7 tCvgOpt 0
+vseq_rd_tb
+R1
+!i10b 1
+!s100 4nkIHbdA7X6]D3cF^neTR2
+ImLH0FE<PN2UYD09ES>oU[0
+R2
+R0
+w1574673580
+8D:/Document/Quartus II Project Files/classwork/seq_rd/seq_rd_tb.v
+FD:/Document/Quartus II Project Files/classwork/seq_rd/seq_rd_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Document/Quartus II Project Files/classwork/seq_rd/seq_rd_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/classwork/seq_rd|D:/Document/Quartus II Project Files/classwork/seq_rd/seq_rd_tb.v|
+!i113 1
+R5
+R6
+R7
+vsequ_detect
+R1
+!i10b 1
+!s100 QEmMAdb=iXXongA`SYJdC3
+I;V3d`0]Z_Wj=CCA?@:G513
+R2
+R0
+w1574606489
+8D:/Document/Quartus II Project Files/classwork/sequ_detect/sequ_detect.v
+FD:/Document/Quartus II Project Files/classwork/sequ_detect/sequ_detect.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Document/Quartus II Project Files/classwork/sequ_detect/sequ_detect.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/classwork/sequ_detect|D:/Document/Quartus II Project Files/classwork/sequ_detect/sequ_detect.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work {+incdir+D:/Document/Quartus II Project Files/classwork/sequ_detect}
+R7

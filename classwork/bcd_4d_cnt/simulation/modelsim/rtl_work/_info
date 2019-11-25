@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document/Quartus II Project Files/bcd_4d_cnt/simulation/modelsim
+vbcd_4d_cnt
+!s110 1571996369
+!i10b 1
+!s100 _[>]f;n9Q1XJiDg[^DG3Q1
+I[VK:>6TP0Tg5GN=Kd_9W73
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1571996228
+8D:/Document/Quartus II Project Files/bcd_4d_cnt/bcd_4d_cnt.v
+FD:/Document/Quartus II Project Files/bcd_4d_cnt/bcd_4d_cnt.v
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1571996369.000000
+!s107 D:/Document/Quartus II Project Files/bcd_4d_cnt/bcd_4d_cnt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/bcd_4d_cnt|D:/Document/Quartus II Project Files/bcd_4d_cnt/bcd_4d_cnt.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+D:/Document/Quartus II Project Files/bcd_4d_cnt}
+tCvgOpt 0

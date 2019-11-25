@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at sequ_detect.v(10): always construct contains both blocking and non-blocking assignments File: D:/Document/Quartus II Project Files/homework/ex4/sequ_detect.v Line: 10

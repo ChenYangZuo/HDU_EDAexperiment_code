@@ -1,0 +1,157 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out_data0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data0[7]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out_data3[7]",
+					"strict" : false
+				},
+				{
+					"name" : "out_check_flag",
+					"strict" : false
+				},
+				{
+					"name" : "head",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "data_in",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

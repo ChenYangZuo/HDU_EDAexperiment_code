@@ -1,0 +1,7 @@
+module freq_div #(parameter N=17)(clk,reset_n,period_param,duty_param,div_out)
+	input clk;
+	input reset_n;
+	input [N-1:0] period_param;
+	input [N-1:0] duty_param;
+	output reg div_out;
+	

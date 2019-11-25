@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document/Quartus II Project Files/ex2/simulation/qsim
+vhard_block
+Z1 !s110 1572752338
+!i10b 1
+!s100 Dn36m7Yok5POVRnM1E0mJ1
+IhGPcRaEaH4O7TF6Ya=:8k2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1572752337
+Z4 8Multiplier.vo
+Z5 FMultiplier.vo
+L0 930
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1572752338.000000
+Z8 !s107 Multiplier.vo|
+Z9 !s90 -work|work|Multiplier.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vMultiplier
+R1
+!i10b 1
+!s100 iOdAYeeS0Gb[a@;MH96hd3
+I04@NQ=7[KS2c2LY9ezDL@1
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@multiplier
+vMultiplier_vlg_vec_tst
+R1
+!i10b 1
+!s100 L8P^KX@KKO]>PZa6:HI[Y1
+I;E??@90^cY5SkVo_JOTXB3
+R2
+R0
+w1572752335
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@multiplier_vlg_vec_tst

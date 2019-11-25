@@ -1,0 +1,100 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document/Quartus II Project Files/sin_gen/simulation/modelsim
+vCNT7B
+Z1 !s110 1573288534
+!i10b 1
+!s100 [GHb4QI2O_`McCi=>hTaQ2
+I2DL9:U2ncnQ6k@Y62_4cD2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1572252060
+8D:/Document/Quartus II Project Files/sin_gen/CNT7B.v
+FD:/Document/Quartus II Project Files/sin_gen/CNT7B.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1573288534.000000
+!s107 D:/Document/Quartus II Project Files/sin_gen/CNT7B.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/sin_gen|D:/Document/Quartus II Project Files/sin_gen/CNT7B.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+D:/Document/Quartus II Project Files/sin_gen}
+Z7 tCvgOpt 0
+n@c@n@t7@b
+vROM78
+R1
+!i10b 1
+!s100 SWPoKzZIQ_hV78Kia9WT_0
+I<JZ`77GGbXoRYU6Ifao?E1
+R2
+R0
+w1572251629
+8D:/Document/Quartus II Project Files/sin_gen/ROM78.v
+FD:/Document/Quartus II Project Files/sin_gen/ROM78.v
+L0 39
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Document/Quartus II Project Files/sin_gen/ROM78.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/sin_gen|D:/Document/Quartus II Project Files/sin_gen/ROM78.v|
+!i113 1
+R5
+R6
+R7
+n@r@o@m78
+vsin_gen
+R1
+!i10b 1
+!s100 ARYPlOkeXF:D5kNd24V9j2
+I:[EdgK8jjEU3Fmo?Fk[XG2
+R2
+R0
+w1572254104
+8D:/Document/Quartus II Project Files/sin_gen/sin_gen.v
+FD:/Document/Quartus II Project Files/sin_gen/sin_gen.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Document/Quartus II Project Files/sin_gen/sin_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/sin_gen|D:/Document/Quartus II Project Files/sin_gen/sin_gen.v|
+!i113 1
+R5
+R6
+R7
+vsin_gen_tb
+!s110 1573288535
+!i10b 1
+!s100 Qi>z_Qj[Zl6I[Jj_542`i1
+IJ1Z2iiUE6Zld3nCXXDi3N3
+R2
+R0
+w1572253139
+8D:/Document/Quartus II Project Files/sin_gen/sin_gen_tb.v
+FD:/Document/Quartus II Project Files/sin_gen/sin_gen_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Document/Quartus II Project Files/sin_gen/sin_gen_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/sin_gen|D:/Document/Quartus II Project Files/sin_gen/sin_gen_tb.v|
+!i113 1
+R5
+R6
+R7

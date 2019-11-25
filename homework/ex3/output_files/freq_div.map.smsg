@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at freq_div.v(25): always construct contains both blocking and non-blocking assignments File: D:/Document/Quartus II Project Files/homework/ex3/freq_div.v Line: 25

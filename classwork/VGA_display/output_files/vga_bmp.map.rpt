@@ -1,0 +1,488 @@
+Analysis & Synthesis report for vga_bmp
+Mon Nov 11 17:30:42 2019
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis RAM Summary
+  9. Analysis & Synthesis IP Cores Summary
+ 10. General Register Statistics
+ 11. Inverted Register Statistics
+ 12. Source assignments for rom_bmp:rom_bmp_inst|altsyncram:altsyncram_component|altsyncram_09b1:auto_generated
+ 13. Parameter Settings for User Entity Instance: rom_bmp:rom_bmp_inst|altsyncram:altsyncram_component
+ 14. altsyncram Parameter Settings by Entity Instance
+ 15. Port Connectivity Checks: "VGA_Display:u_VGA_Display"
+ 16. Post-Synthesis Netlist Statistics for Top Partition
+ 17. Elapsed Time Per Partition
+ 18. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Mon Nov 11 17:30:42 2019           ;
+; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Standard Edition ;
+; Revision Name                      ; vga_bmp                                         ;
+; Top-level Entity Name              ; vga_bmp                                         ;
+; Family                             ; Cyclone 10 LP                                   ;
+; Total logic elements               ; 79                                              ;
+;     Total combinational functions  ; 71                                              ;
+;     Dedicated logic registers      ; 38                                              ;
+; Total registers                    ; 38                                              ;
+; Total pins                         ; 16                                              ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 196,608                                         ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; 10CL006YU256C8G    ;                    ;
+; Top-level entity name                                                      ; vga_bmp            ; vga_bmp            ;
+; Family name                                                                ; Cyclone 10 LP      ; Cyclone V          ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                              ; Enable             ; Enable             ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                                        ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                       ;
++-------------------------------------+-----------------+----------------------------------------+-----------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path    ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                      ; Library ;
++-------------------------------------+-----------------+----------------------------------------+-----------------------------------------------------------------------------------+---------+
+; rom_bmp.v                           ; yes             ; User Wizard-Generated File             ; D:/Document/Quartus II Project Files/classwork/VGA_display/rom_bmp.v              ;         ;
+; VGA_Display.v                       ; yes             ; User Verilog HDL File                  ; D:/Document/Quartus II Project Files/classwork/VGA_display/VGA_Display.v          ;         ;
+; vga_bmp.v                           ; yes             ; User Verilog HDL File                  ; D:/Document/Quartus II Project Files/classwork/VGA_display/vga_bmp.v              ;         ;
+; altsyncram.tdf                      ; yes             ; Megafunction                           ; c:/intelfpga/17.1/quartus/libraries/megafunctions/altsyncram.tdf                  ;         ;
+; stratix_ram_block.inc               ; yes             ; Megafunction                           ; c:/intelfpga/17.1/quartus/libraries/megafunctions/stratix_ram_block.inc           ;         ;
+; lpm_mux.inc                         ; yes             ; Megafunction                           ; c:/intelfpga/17.1/quartus/libraries/megafunctions/lpm_mux.inc                     ;         ;
+; lpm_decode.inc                      ; yes             ; Megafunction                           ; c:/intelfpga/17.1/quartus/libraries/megafunctions/lpm_decode.inc                  ;         ;
+; aglobal171.inc                      ; yes             ; Megafunction                           ; c:/intelfpga/17.1/quartus/libraries/megafunctions/aglobal171.inc                  ;         ;
+; a_rdenreg.inc                       ; yes             ; Megafunction                           ; c:/intelfpga/17.1/quartus/libraries/megafunctions/a_rdenreg.inc                   ;         ;
+; altrom.inc                          ; yes             ; Megafunction                           ; c:/intelfpga/17.1/quartus/libraries/megafunctions/altrom.inc                      ;         ;
+; altram.inc                          ; yes             ; Megafunction                           ; c:/intelfpga/17.1/quartus/libraries/megafunctions/altram.inc                      ;         ;
+; altdpram.inc                        ; yes             ; Megafunction                           ; c:/intelfpga/17.1/quartus/libraries/megafunctions/altdpram.inc                    ;         ;
+; db/altsyncram_09b1.tdf              ; yes             ; Auto-Generated Megafunction            ; D:/Document/Quartus II Project Files/classwork/VGA_display/db/altsyncram_09b1.tdf ;         ;
+; c:/users/zuo-c/desktop/18042138.mif ; yes             ; Auto-Found Memory Initialization File  ; c:/users/zuo-c/desktop/18042138.mif                                               ;         ;
+; db/decode_88a.tdf                   ; yes             ; Auto-Generated Megafunction            ; D:/Document/Quartus II Project Files/classwork/VGA_display/db/decode_88a.tdf      ;         ;
+; db/mux_tmb.tdf                      ; yes             ; Auto-Generated Megafunction            ; D:/Document/Quartus II Project Files/classwork/VGA_display/db/mux_tmb.tdf         ;         ;
++-------------------------------------+-----------------+----------------------------------------+-----------------------------------------------------------------------------------+---------+
+
+
++------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary          ;
++---------------------------------------------+--------+
+; Resource                                    ; Usage  ;
++---------------------------------------------+--------+
+; Estimated Total logic elements              ; 79     ;
+;                                             ;        ;
+; Total combinational functions               ; 71     ;
+; Logic element usage by number of LUT inputs ;        ;
+;     -- 4 input functions                    ; 34     ;
+;     -- 3 input functions                    ; 7      ;
+;     -- <=2 input functions                  ; 30     ;
+;                                             ;        ;
+; Logic elements by mode                      ;        ;
+;     -- normal mode                          ; 53     ;
+;     -- arithmetic mode                      ; 18     ;
+;                                             ;        ;
+; Total registers                             ; 38     ;
+;     -- Dedicated logic registers            ; 38     ;
+;     -- I/O registers                        ; 0      ;
+;                                             ;        ;
+; I/O pins                                    ; 16     ;
+; Total memory bits                           ; 196608 ;
+;                                             ;        ;
+; Embedded Multiplier 9-bit elements          ; 0      ;
+;                                             ;        ;
+; Maximum fan-out node                        ; clk25M ;
+; Maximum fan-out                             ; 62     ;
+; Total fan-out                               ; 742    ;
+; Average fan-out                             ; 4.50   ;
++---------------------------------------------+--------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                         ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
+; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                 ; Entity Name     ; Library Name ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
+; |vga_bmp                                  ; 71 (1)              ; 38 (1)                    ; 196608      ; 0            ; 0       ; 0         ; 16   ; 0            ; |vga_bmp                                                                                                            ; vga_bmp         ; work         ;
+;    |VGA_Display:u_VGA_Display|            ; 54 (54)             ; 33 (33)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vga_bmp|VGA_Display:u_VGA_Display                                                                                  ; VGA_Display     ; work         ;
+;    |rom_bmp:rom_bmp_inst|                 ; 16 (0)              ; 4 (0)                     ; 196608      ; 0            ; 0       ; 0         ; 0    ; 0            ; |vga_bmp|rom_bmp:rom_bmp_inst                                                                                       ; rom_bmp         ; work         ;
+;       |altsyncram:altsyncram_component|   ; 16 (0)              ; 4 (0)                     ; 196608      ; 0            ; 0       ; 0         ; 0    ; 0            ; |vga_bmp|rom_bmp:rom_bmp_inst|altsyncram:altsyncram_component                                                       ; altsyncram      ; work         ;
+;          |altsyncram_09b1:auto_generated| ; 16 (0)              ; 4 (4)                     ; 196608      ; 0            ; 0       ; 0         ; 0    ; 0            ; |vga_bmp|rom_bmp:rom_bmp_inst|altsyncram:altsyncram_component|altsyncram_09b1:auto_generated                        ; altsyncram_09b1 ; work         ;
+;             |decode_88a:rden_decode|      ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vga_bmp|rom_bmp:rom_bmp_inst|altsyncram:altsyncram_component|altsyncram_09b1:auto_generated|decode_88a:rden_decode ; decode_88a      ; work         ;
+;             |mux_tmb:mux2|                ; 12 (12)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |vga_bmp|rom_bmp:rom_bmp_inst|altsyncram:altsyncram_component|altsyncram_09b1:auto_generated|mux_tmb:mux2           ; mux_tmb         ; work         ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                                        ;
++------------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+--------+-------------------------------------+
+; Name                                                                                           ; Type ; Mode ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size   ; MIF                                 ;
++------------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+--------+-------------------------------------+
+; rom_bmp:rom_bmp_inst|altsyncram:altsyncram_component|altsyncram_09b1:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 32768        ; 6            ; --           ; --           ; 196608 ; C:/Users/zuo-c/Desktop/18042138.mif ;
++------------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+--------+-------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                           ;
++--------+--------------+---------+--------------+--------------+-------------------------------+-----------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance               ; IP Include File ;
++--------+--------------+---------+--------------+--------------+-------------------------------+-----------------+
+; Altera ; ROM: 1-PORT  ; 17.1    ; N/A          ; N/A          ; |vga_bmp|rom_bmp:rom_bmp_inst ; rom_bmp.v       ;
++--------+--------------+---------+--------------+--------------+-------------------------------+-----------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 38    ;
+; Number of registers using Synchronous Clear  ; 20    ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 34    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 10    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------+
+; Inverted Register Statistics                     ;
++----------------------------------------+---------+
+; Inverted Register                      ; Fan out ;
++----------------------------------------+---------+
+; VGA_Display:u_VGA_Display|hs           ; 1       ;
+; Total number of inverted registers = 1 ;         ;
++----------------------------------------+---------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Source assignments for rom_bmp:rom_bmp_inst|altsyncram:altsyncram_component|altsyncram_09b1:auto_generated ;
++---------------------------------+--------------------+------+----------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                           ;
++---------------------------------+--------------------+------+----------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                            ;
++---------------------------------+--------------------+------+----------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: rom_bmp:rom_bmp_inst|altsyncram:altsyncram_component ;
++------------------------------------+-------------------------------------+------------------------+
+; Parameter Name                     ; Value                               ; Type                   ;
++------------------------------------+-------------------------------------+------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                                   ; Untyped                ;
+; AUTO_CARRY_CHAINS                  ; ON                                  ; AUTO_CARRY             ;
+; IGNORE_CARRY_BUFFERS               ; OFF                                 ; IGNORE_CARRY           ;
+; AUTO_CASCADE_CHAINS                ; ON                                  ; AUTO_CASCADE           ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                                 ; IGNORE_CASCADE         ;
+; WIDTH_BYTEENA                      ; 1                                   ; Untyped                ;
+; OPERATION_MODE                     ; ROM                                 ; Untyped                ;
+; WIDTH_A                            ; 6                                   ; Signed Integer         ;
+; WIDTHAD_A                          ; 15                                  ; Signed Integer         ;
+; NUMWORDS_A                         ; 32768                               ; Signed Integer         ;
+; OUTDATA_REG_A                      ; CLOCK0                              ; Untyped                ;
+; ADDRESS_ACLR_A                     ; NONE                                ; Untyped                ;
+; OUTDATA_ACLR_A                     ; NONE                                ; Untyped                ;
+; WRCONTROL_ACLR_A                   ; NONE                                ; Untyped                ;
+; INDATA_ACLR_A                      ; NONE                                ; Untyped                ;
+; BYTEENA_ACLR_A                     ; NONE                                ; Untyped                ;
+; WIDTH_B                            ; 1                                   ; Untyped                ;
+; WIDTHAD_B                          ; 1                                   ; Untyped                ;
+; NUMWORDS_B                         ; 1                                   ; Untyped                ;
+; INDATA_REG_B                       ; CLOCK1                              ; Untyped                ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1                              ; Untyped                ;
+; RDCONTROL_REG_B                    ; CLOCK1                              ; Untyped                ;
+; ADDRESS_REG_B                      ; CLOCK1                              ; Untyped                ;
+; OUTDATA_REG_B                      ; UNREGISTERED                        ; Untyped                ;
+; BYTEENA_REG_B                      ; CLOCK1                              ; Untyped                ;
+; INDATA_ACLR_B                      ; NONE                                ; Untyped                ;
+; WRCONTROL_ACLR_B                   ; NONE                                ; Untyped                ;
+; ADDRESS_ACLR_B                     ; NONE                                ; Untyped                ;
+; OUTDATA_ACLR_B                     ; NONE                                ; Untyped                ;
+; RDCONTROL_ACLR_B                   ; NONE                                ; Untyped                ;
+; BYTEENA_ACLR_B                     ; NONE                                ; Untyped                ;
+; WIDTH_BYTEENA_A                    ; 1                                   ; Signed Integer         ;
+; WIDTH_BYTEENA_B                    ; 1                                   ; Untyped                ;
+; RAM_BLOCK_TYPE                     ; AUTO                                ; Untyped                ;
+; BYTE_SIZE                          ; 8                                   ; Untyped                ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                           ; Untyped                ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ                ; Untyped                ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ                ; Untyped                ;
+; INIT_FILE                          ; C:/Users/zuo-c/Desktop/18042138.mif ; Untyped                ;
+; INIT_FILE_LAYOUT                   ; PORT_A                              ; Untyped                ;
+; MAXIMUM_DEPTH                      ; 0                                   ; Untyped                ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS                              ; Untyped                ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL                              ; Untyped                ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS                              ; Untyped                ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL                              ; Untyped                ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN                     ; Untyped                ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN                     ; Untyped                ;
+; ENABLE_ECC                         ; FALSE                               ; Untyped                ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                               ; Untyped                ;
+; WIDTH_ECCSTATUS                    ; 3                                   ; Untyped                ;
+; DEVICE_FAMILY                      ; Cyclone 10 LP                       ; Untyped                ;
+; CBXI_PARAMETER                     ; altsyncram_09b1                     ; Untyped                ;
++------------------------------------+-------------------------------------+------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                                 ;
++-------------------------------------------+------------------------------------------------------+
+; Name                                      ; Value                                                ;
++-------------------------------------------+------------------------------------------------------+
+; Number of entity instances                ; 1                                                    ;
+; Entity Instance                           ; rom_bmp:rom_bmp_inst|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; ROM                                                  ;
+;     -- WIDTH_A                            ; 6                                                    ;
+;     -- NUMWORDS_A                         ; 32768                                                ;
+;     -- OUTDATA_REG_A                      ; CLOCK0                                               ;
+;     -- WIDTH_B                            ; 1                                                    ;
+;     -- NUMWORDS_B                         ; 1                                                    ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                               ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                         ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                 ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                            ;
++-------------------------------------------+------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "VGA_Display:u_VGA_Display"                                                                                                                  ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                      ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; push ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 16                          ;
+; cycloneiii_ff         ; 38                          ;
+;     CLR               ; 14                          ;
+;     CLR SCLR          ; 10                          ;
+;     ENA CLR SCLR      ; 10                          ;
+;     plain             ; 4                           ;
+; cycloneiii_lcell_comb ; 72                          ;
+;     arith             ; 18                          ;
+;         2 data inputs ; 18                          ;
+;     normal            ; 54                          ;
+;         1 data inputs ; 6                           ;
+;         2 data inputs ; 7                           ;
+;         3 data inputs ; 7                           ;
+;         4 data inputs ; 34                          ;
+; cycloneiii_ram_block  ; 24                          ;
+;                       ;                             ;
+; Max LUT depth         ; 4.00                        ;
+; Average LUT depth     ; 2.25                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+    Info: Processing started: Mon Nov 11 17:30:25 2019
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off vga_bmp -c vga_bmp
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file rom_bmp.v
+    Info (12023): Found entity 1: rom_bmp File: D:/Document/Quartus II Project Files/classwork/VGA_display/rom_bmp.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file vga_display.v
+    Info (12023): Found entity 1: VGA_Display File: D:/Document/Quartus II Project Files/classwork/VGA_display/VGA_Display.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file vga_bmp.v
+    Info (12023): Found entity 1: vga_bmp File: D:/Document/Quartus II Project Files/classwork/VGA_display/vga_bmp.v Line: 1
+Info (12127): Elaborating entity "vga_bmp" for the top level hierarchy
+Info (12128): Elaborating entity "rom_bmp" for hierarchy "rom_bmp:rom_bmp_inst" File: D:/Document/Quartus II Project Files/classwork/VGA_display/vga_bmp.v Line: 30
+Info (12128): Elaborating entity "altsyncram" for hierarchy "rom_bmp:rom_bmp_inst|altsyncram:altsyncram_component" File: D:/Document/Quartus II Project Files/classwork/VGA_display/rom_bmp.v Line: 81
+Info (12130): Elaborated megafunction instantiation "rom_bmp:rom_bmp_inst|altsyncram:altsyncram_component" File: D:/Document/Quartus II Project Files/classwork/VGA_display/rom_bmp.v Line: 81
+Info (12133): Instantiated megafunction "rom_bmp:rom_bmp_inst|altsyncram:altsyncram_component" with the following parameter: File: D:/Document/Quartus II Project Files/classwork/VGA_display/rom_bmp.v Line: 81
+    Info (12134): Parameter "address_aclr_a" = "NONE"
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "init_file" = "C:/Users/zuo-c/Desktop/18042138.mif"
+    Info (12134): Parameter "intended_device_family" = "Cyclone 10 LP"
+    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "32768"
+    Info (12134): Parameter "operation_mode" = "ROM"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "CLOCK0"
+    Info (12134): Parameter "widthad_a" = "15"
+    Info (12134): Parameter "width_a" = "6"
+    Info (12134): Parameter "width_byteena_a" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_09b1.tdf
+    Info (12023): Found entity 1: altsyncram_09b1 File: D:/Document/Quartus II Project Files/classwork/VGA_display/db/altsyncram_09b1.tdf Line: 31
+Info (12128): Elaborating entity "altsyncram_09b1" for hierarchy "rom_bmp:rom_bmp_inst|altsyncram:altsyncram_component|altsyncram_09b1:auto_generated" File: c:/intelfpga/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Info (12021): Found 1 design units, including 1 entities, in source file db/decode_88a.tdf
+    Info (12023): Found entity 1: decode_88a File: D:/Document/Quartus II Project Files/classwork/VGA_display/db/decode_88a.tdf Line: 22
+Info (12128): Elaborating entity "decode_88a" for hierarchy "rom_bmp:rom_bmp_inst|altsyncram:altsyncram_component|altsyncram_09b1:auto_generated|decode_88a:rden_decode" File: D:/Document/Quartus II Project Files/classwork/VGA_display/db/altsyncram_09b1.tdf Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_tmb.tdf
+    Info (12023): Found entity 1: mux_tmb File: D:/Document/Quartus II Project Files/classwork/VGA_display/db/mux_tmb.tdf Line: 22
+Info (12128): Elaborating entity "mux_tmb" for hierarchy "rom_bmp:rom_bmp_inst|altsyncram:altsyncram_component|altsyncram_09b1:auto_generated|mux_tmb:mux2" File: D:/Document/Quartus II Project Files/classwork/VGA_display/db/altsyncram_09b1.tdf Line: 41
+Info (12128): Elaborating entity "VGA_Display" for hierarchy "VGA_Display:u_VGA_Display" File: D:/Document/Quartus II Project Files/classwork/VGA_display/vga_bmp.v Line: 41
+Warning (10230): Verilog HDL assignment warning at VGA_Display.v(17): truncated value with size 32 to match size of target (1) File: D:/Document/Quartus II Project Files/classwork/VGA_display/VGA_Display.v Line: 17
+Warning (10230): Verilog HDL assignment warning at VGA_Display.v(26): truncated value with size 32 to match size of target (11) File: D:/Document/Quartus II Project Files/classwork/VGA_display/VGA_Display.v Line: 26
+Warning (10230): Verilog HDL assignment warning at VGA_Display.v(27): truncated value with size 32 to match size of target (11) File: D:/Document/Quartus II Project Files/classwork/VGA_display/VGA_Display.v Line: 27
+Warning (10230): Verilog HDL assignment warning at VGA_Display.v(37): truncated value with size 32 to match size of target (1) File: D:/Document/Quartus II Project Files/classwork/VGA_display/VGA_Display.v Line: 37
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (13000): Registers with preset signals will power-up high File: D:/Document/Quartus II Project Files/classwork/VGA_display/VGA_Display.v Line: 77
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 125 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 2 input pins
+    Info (21059): Implemented 14 output pins
+    Info (21061): Implemented 85 logic cells
+    Info (21064): Implemented 24 RAM segments
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 4762 megabytes
+    Info: Processing ended: Mon Nov 11 17:30:42 2019
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:38
+
+

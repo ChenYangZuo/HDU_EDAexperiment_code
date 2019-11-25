@@ -1,0 +1,11 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/Document/Quartus\ II\ Project\ Files/sin_gen {D:/Document/Quartus II Project Files/sin_gen/ROM78.v}
+vlog -vlog01compat -work work +incdir+D:/Document/Quartus\ II\ Project\ Files/sin_gen {D:/Document/Quartus II Project Files/sin_gen/CNT7B.v}
+vlog -vlog01compat -work work +incdir+D:/Document/Quartus\ II\ Project\ Files/sin_gen {D:/Document/Quartus II Project Files/sin_gen/sin_gen.v}
+

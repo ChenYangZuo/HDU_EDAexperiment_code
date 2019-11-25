@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Nov 25 17:20:27 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : seq_rd
+Top-level Entity Name : seq_rd
+Family : Cyclone 10 LP
+Device : 10CL006YU256C8G
+Timing Models : Final
+Total logic elements : 75 / 6,272 ( 1 % )
+    Total combinational functions : 37 / 6,272 ( < 1 % )
+    Dedicated logic registers : 63 / 6,272 ( 1 % )
+Total registers : 63
+Total pins : 37 / 177 ( 21 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

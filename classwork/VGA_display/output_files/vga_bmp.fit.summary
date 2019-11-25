@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Nov 11 17:30:51 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : vga_bmp
+Top-level Entity Name : vga_bmp
+Family : Cyclone 10 LP
+Device : 10CL006YU256C8G
+Timing Models : Final
+Total logic elements : 78 / 6,272 ( 1 % )
+    Total combinational functions : 71 / 6,272 ( 1 % )
+    Dedicated logic registers : 38 / 6,272 ( < 1 % )
+Total registers : 38
+Total pins : 16 / 177 ( 9 % )
+Total virtual pins : 0
+Total memory bits : 196,608 / 276,480 ( 71 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

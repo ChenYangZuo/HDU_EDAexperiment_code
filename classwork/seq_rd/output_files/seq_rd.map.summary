@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Nov 25 17:20:18 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : seq_rd
+Top-level Entity Name : seq_rd
+Family : Cyclone 10 LP
+Total logic elements : 76
+    Total combinational functions : 37
+    Dedicated logic registers : 63
+Total registers : 63
+Total pins : 37
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

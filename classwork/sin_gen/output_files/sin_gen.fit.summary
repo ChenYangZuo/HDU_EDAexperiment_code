@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Nov 09 16:18:51 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : sin_gen
+Top-level Entity Name : sin_gen
+Family : Cyclone 10 LP
+Device : 10CL006YU256C8G
+Timing Models : Final
+Total logic elements : 891 / 6,272 ( 14 % )
+    Total combinational functions : 647 / 6,272 ( 10 % )
+    Dedicated logic registers : 650 / 6,272 ( 10 % )
+Total registers : 650
+Total pins : 11 / 177 ( 6 % )
+Total virtual pins : 0
+Total memory bits : 41,984 / 276,480 ( 15 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )
