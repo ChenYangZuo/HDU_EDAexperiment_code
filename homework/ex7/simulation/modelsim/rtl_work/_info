@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document/Quartus II Project Files/homework/ex7/simulation/modelsim
+vshifter_s1p16
+!s110 1575545232
+!i10b 1
+!s100 ^n]^5m<PVNk>ge8d:8zoW0
+IGM@GTZ^z9Tma4jM4MjZb91
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1575541931
+8D:/Document/Quartus II Project Files/homework/ex7/shifter_s1p16.v
+FD:/Document/Quartus II Project Files/homework/ex7/shifter_s1p16.v
+L0 5
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1575545232.000000
+!s107 D:/Document/Quartus II Project Files/homework/ex7/shifter_s1p16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/homework/ex7|D:/Document/Quartus II Project Files/homework/ex7/shifter_s1p16.v|
+!i113 1
+Z3 o-vlog01compat -work work
+Z4 !s92 -vlog01compat -work work {+incdir+D:/Document/Quartus II Project Files/homework/ex7}
+Z5 tCvgOpt 0
+vshifter_s1p16_tb
+!s110 1575545233
+!i10b 1
+!s100 57>JDGUK8b19W63[NDan]3
+I<5Be^i8lE_R7l5cfFc[f_2
+R1
+R0
+w1575545189
+8D:/Document/Quartus II Project Files/homework/ex7/shifter_s1p16_tb.v
+FD:/Document/Quartus II Project Files/homework/ex7/shifter_s1p16_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1575545233.000000
+!s107 D:/Document/Quartus II Project Files/homework/ex7/shifter_s1p16_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/homework/ex7|D:/Document/Quartus II Project Files/homework/ex7/shifter_s1p16_tb.v|
+!i113 1
+R3
+R4
+R5

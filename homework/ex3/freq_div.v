@@ -1,27 +1,16 @@
 module freq_div
 
 #(
-
 	parameter N = 17 
-
 )
-
 (			
-
 	input clk,
-
 	input reset_n,
-
 	input [N-1:0] period_param,
-
 	input [N-1:0] duty_param,
-
 	output reg div_out
-
 );
-
 reg [N-1:0]count;
-
 always@(posedge clk or negedge reset_n)
 	begin
 		if(!reset_n)

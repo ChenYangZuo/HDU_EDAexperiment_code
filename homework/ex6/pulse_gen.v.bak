@@ -1,0 +1,20 @@
+//Design a pulse generator. The system clock is known to be 50MHz, the pulse width is 1ms, 
+//the pulse interval is adjustable, and the maximum interval is 1s.
+module pulse_gen	
+#(
+parameter N = 26,
+
+parameter DUTY = 1000*50,
+
+parameter PERIOD_MAX = 50*1000*1000	
+)
+
+(//分频器，周期为div_param
+	input clk,
+
+	input reset_n,
+
+	input [N-1:0] period_param,
+
+	output reg div_out
+);

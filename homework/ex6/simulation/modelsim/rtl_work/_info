@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document/Quartus II Project Files/homework/ex6/simulation/modelsim
+vpulse_gen
+!s110 1575698347
+!i10b 1
+!s100 O7K:`fC3i_4V8?=hnfCVz0
+IDnH_0:KoAP37_nXCoUaYl1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1575698257
+8D:/Document/Quartus II Project Files/homework/ex6/pulse_gen.v
+FD:/Document/Quartus II Project Files/homework/ex6/pulse_gen.v
+L0 5
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1575698347.000000
+!s107 D:/Document/Quartus II Project Files/homework/ex6/pulse_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/homework/ex6|D:/Document/Quartus II Project Files/homework/ex6/pulse_gen.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+D:/Document/Quartus II Project Files/homework/ex6}
+tCvgOpt 0

@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at pulse_gen.v(21): always construct contains both blocking and non-blocking assignments File: D:/Document/Quartus II Project Files/homework/ex6/pulse_gen.v Line: 21

@@ -1,0 +1,52 @@
+`timescale 10ns/100ps
+
+module shifter_s1p16_tb()
+
+reg clk;
+reg reset_n;
+reg serial_in;
+
+wire [15:0] parallel_out;
+
+
+shifter_s1p16 u_shifter_s1p16(
+	.clk					(clk),
+	.rst_n				(rst_n),
+	.serial_in			(serial_in),
+	.parallel_out		(parallel_out),
+);
+
+
+initial
+begin
+	clk = 1'b0;
+	forever #5 clk = ~clk;
+end
+
+initial
+begin
+	rst_n<=0;
+	#20 rst_n<=1'b1;
+	repeat(10)
+		begin
+			#10 data_in <=1;
+			#10 data_in <=1;
+			#10 data_in <=1;
+			#10 data_in <=0;
+			#10 data_in <=1;
+			#10 data_in <=0;
+			#10 data_in <=0;
+			#10 data_in <=0;
+			#10 data_in <=1;
+			#10 data_in <=0;
+			#10 data_in <=1;
+			#10 data_in <=1;
+			#10 data_in <=0;
+			#10 data_in <=0;
+			#10 data_in <=1;
+			#10 data_in <=0;
+		end
+end
+endmodule
+
+	

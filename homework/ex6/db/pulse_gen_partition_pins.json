@@ -1,0 +1,125 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "div_out",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[0]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[1]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[2]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[3]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[4]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[5]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[6]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[7]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[8]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[9]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[10]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[11]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[12]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[13]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[14]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[15]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[24]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[25]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[16]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[17]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[18]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[19]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[20]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[21]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[22]",
+					"strict" : false
+				},
+				{
+					"name" : "period_param[23]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

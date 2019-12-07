@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dD:/Document/Quartus II Project Files/classwork/seq_rd/simulation/modelsim
 vseq_rd
-Z1 !s110 1574674527
+Z1 !s110 1574846388
 !i10b 1
 !s100 j1n:z]O4WIj1n^_C_T=S]3
 IZ_>470ASedF[YgZaR``<a3
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1574674527.000000
+Z4 !s108 1574846388.000000
 !s107 D:/Document/Quartus II Project Files/classwork/seq_rd/seq_rd.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/classwork/seq_rd|D:/Document/Quartus II Project Files/classwork/seq_rd/seq_rd.v|
 !i113 1
@@ -67,7 +67,7 @@ R3
 r1
 !s85 0
 31
-R4
+!s108 1574846387.000000
 !s107 D:/Document/Quartus II Project Files/classwork/sequ_detect/sequ_detect.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/classwork/sequ_detect|D:/Document/Quartus II Project Files/classwork/sequ_detect/sequ_detect.v|
 !i113 1
