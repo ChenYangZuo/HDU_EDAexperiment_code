@@ -1,0 +1,186 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document/Quartus II Project Files/classwork/music_player/simulation/modelsim
+vcnt138t
+Z1 !s110 1575884729
+!i10b 1
+!s100 HYo0^BdgF6073F2EkLRaY1
+IDKVz>BC0KQLW48EG<jbQ70
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1575880994
+8D:/Document/Quartus II Project Files/classwork/music_player/cnt138t.v
+FD:/Document/Quartus II Project Files/classwork/music_player/cnt138t.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1575884729.000000
+!s107 D:/Document/Quartus II Project Files/classwork/music_player/cnt138t.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/classwork/music_player|D:/Document/Quartus II Project Files/classwork/music_player/cnt138t.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+D:/Document/Quartus II Project Files/classwork/music_player}
+Z7 tCvgOpt 0
+vf_code
+R1
+!i10b 1
+!s100 B_H@Bk_2a@9CXbAI5WKlC0
+IXAYKdQUL74EK>S;5Z5Q[=0
+R2
+R0
+w1575883788
+8D:/Document/Quartus II Project Files/classwork/music_player/f_code.v
+FD:/Document/Quartus II Project Files/classwork/music_player/f_code.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Document/Quartus II Project Files/classwork/music_player/f_code.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/classwork/music_player|D:/Document/Quartus II Project Files/classwork/music_player/f_code.v|
+!i113 1
+R5
+R6
+R7
+vfdiv
+R1
+!i10b 1
+!s100 Z@L:z`Q1H2R1S3L@kfHR30
+IoHZ[D4Q1b[Ho4eoFU>AiK1
+R2
+R0
+w1575883842
+8D:/Document/Quartus II Project Files/classwork/music_player/fdiv.v
+FD:/Document/Quartus II Project Files/classwork/music_player/fdiv.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Document/Quartus II Project Files/classwork/music_player/fdiv.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/classwork/music_player|D:/Document/Quartus II Project Files/classwork/music_player/fdiv.v|
+!i113 1
+R5
+R6
+R7
+vmusic
+Z8 !s110 1575884730
+!i10b 1
+!s100 4SdA@h@^RZm<@:lR4fTbK1
+IV4:COmmO<HoUnN<>ARnbT2
+R2
+R0
+w1575883889
+8D:/Document/Quartus II Project Files/classwork/music_player/music.v
+FD:/Document/Quartus II Project Files/classwork/music_player/music.v
+Z9 L0 39
+R3
+r1
+!s85 0
+31
+Z10 !s108 1575884730.000000
+!s107 D:/Document/Quartus II Project Files/classwork/music_player/music.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/classwork/music_player|D:/Document/Quartus II Project Files/classwork/music_player/music.v|
+!i113 1
+R5
+R6
+R7
+vmusic_player
+R1
+!i10b 1
+!s100 [1S5]c6C5SV4Jm=<Mmc_l3
+IU8blSMXF10n?b5Re1N=Z51
+R2
+R0
+w1575883718
+8D:/Document/Quartus II Project Files/classwork/music_player/music_player.v
+FD:/Document/Quartus II Project Files/classwork/music_player/music_player.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Document/Quartus II Project Files/classwork/music_player/music_player.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/classwork/music_player|D:/Document/Quartus II Project Files/classwork/music_player/music_player.v|
+!i113 1
+R5
+R6
+R7
+vpll
+R8
+!i10b 1
+!s100 =6c;nDYm`mKCf`l>EQ6EQ3
+I`;`9=3HDNJLLfk=9B>2mV0
+R2
+R0
+w1575882222
+8D:/Document/Quartus II Project Files/classwork/music_player/pll.v
+FD:/Document/Quartus II Project Files/classwork/music_player/pll.v
+R9
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Document/Quartus II Project Files/classwork/music_player/pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/classwork/music_player|D:/Document/Quartus II Project Files/classwork/music_player/pll.v|
+!i113 1
+R5
+R6
+R7
+vpll_altpll
+R8
+!i10b 1
+!s100 8C4o8@EKzJiMem];Fg=UA2
+ICW[<k`QgP4zbc1gY5SoNH3
+R2
+R0
+w1575883804
+8D:/Document/Quartus II Project Files/classwork/music_player/db/pll_altpll.v
+FD:/Document/Quartus II Project Files/classwork/music_player/db/pll_altpll.v
+L0 30
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Document/Quartus II Project Files/classwork/music_player/db/pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/classwork/music_player/db|D:/Document/Quartus II Project Files/classwork/music_player/db/pll_altpll.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work {+incdir+D:/Document/Quartus II Project Files/classwork/music_player/db}
+R7
+vspeak
+R1
+!i10b 1
+!s100 [E?DDdGMQcGTLoHJRO]Tz1
+ISSRUGO`N^gfKRTeo4==lU1
+R2
+R0
+w1575883789
+8D:/Document/Quartus II Project Files/classwork/music_player/speak.v
+FD:/Document/Quartus II Project Files/classwork/music_player/speak.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Document/Quartus II Project Files/classwork/music_player/speak.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/classwork/music_player|D:/Document/Quartus II Project Files/classwork/music_player/speak.v|
+!i113 1
+R5
+R6
+R7

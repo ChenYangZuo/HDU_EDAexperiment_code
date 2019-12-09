@@ -1,0 +1,7 @@
+module music_player(
+	input clk,
+	input rst_n,
+	output speak,
+	output high,
+	output [3:0] led
+);

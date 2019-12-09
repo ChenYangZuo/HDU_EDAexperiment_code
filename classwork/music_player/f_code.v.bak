@@ -1,0 +1,6 @@
+module f_code(
+	input [3:0] INX,
+	output reg [3:0] CODE,
+	output reg H,
+	output reg [10:0] TO;
+)

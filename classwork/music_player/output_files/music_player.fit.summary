@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Dec 09 18:01:04 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : music_player
+Top-level Entity Name : music_player
+Family : Cyclone 10 LP
+Device : 10CL006YU256C8G
+Timing Models : Final
+Total logic elements : 63 / 6,272 ( 1 % )
+    Total combinational functions : 54 / 6,272 ( < 1 % )
+    Dedicated logic registers : 31 / 6,272 ( < 1 % )
+Total registers : 31
+Total pins : 8 / 177 ( 5 % )
+Total virtual pins : 0
+Total memory bits : 1,024 / 276,480 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )

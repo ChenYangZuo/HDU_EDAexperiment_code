@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Dec 09 18:00:56 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : music_player
+Top-level Entity Name : music_player
+Family : Cyclone 10 LP
+Total logic elements : 54
+    Total combinational functions : 53
+    Dedicated logic registers : 31
+Total registers : 31
+Total pins : 8
+Total virtual pins : 0
+Total memory bits : 1,024
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

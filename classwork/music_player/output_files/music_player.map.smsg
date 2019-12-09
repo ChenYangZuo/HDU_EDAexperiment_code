@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at music_player.v(26): object "q" differs only in case from object "Q" in the same scope File: D:/Document/Quartus II Project Files/classwork/music_player/music_player.v Line: 26
+Warning (10268): Verilog HDL information at speak.v(7): always construct contains both blocking and non-blocking assignments File: D:/Document/Quartus II Project Files/classwork/music_player/speak.v Line: 7
