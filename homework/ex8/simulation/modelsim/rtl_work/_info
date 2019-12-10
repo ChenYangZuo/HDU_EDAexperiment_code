@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document/Quartus II Project Files/homework/ex8/simulation/modelsim
+vALU_32
+!s110 1575984322
+!i10b 1
+!s100 YCBX8:g>@hYZY0hgg_F5?2
+IGWdbTC[B`@34<T@a^4B[20
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1575984152
+8D:/Document/Quartus II Project Files/homework/ex8/ALU_32.v
+FD:/Document/Quartus II Project Files/homework/ex8/ALU_32.v
+L0 2
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1575984322.000000
+!s107 D:/Document/Quartus II Project Files/homework/ex8/ALU_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Document/Quartus II Project Files/homework/ex8|D:/Document/Quartus II Project Files/homework/ex8/ALU_32.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+D:/Document/Quartus II Project Files/homework/ex8}
+tCvgOpt 0
+n@a@l@u_32

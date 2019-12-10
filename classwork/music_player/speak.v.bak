@@ -1,5 +1,0 @@
-module speak(
-	input clk;
-	input [10:0] TN,
-	output reg SPKS
-);

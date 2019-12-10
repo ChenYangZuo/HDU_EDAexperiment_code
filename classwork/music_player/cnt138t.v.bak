@@ -1,5 +1,0 @@
-module cnt138t(
-	input clk,
-	input rst_n,
-	output [7:0]cnt8
-);

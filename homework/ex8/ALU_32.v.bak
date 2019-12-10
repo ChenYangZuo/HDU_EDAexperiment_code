@@ -13,7 +13,7 @@ module ALU_32(
 		begin
 			case(op_code)
 				addition:        {carry_out,result_out} <= data_a_in + data_b_in + carry_in;
-				subtraction:     {carry_out,result_out} <= {(~data_a_in) & data_b_in , data_a_in ^ data_b_in};
+				subtraction:     {carry_out,result_out} <= data_a_in - data_b_in - carry_in;
 				opand:           result_out <= data_a_in & data_b_in;
 				opor:            result_out <= data_a_in | data_b_in;
 				opxor:           result_out <= data_a_in ^ data_b_in;
